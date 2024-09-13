@@ -1,12 +1,16 @@
 name: Python CI with Tests
 
-on: 
+on:
   push:
     branches:
-      - main
+      - development
+      - 'feature/*'
+      - 'hotfix/*'
   pull_request:
     branches:
-      - main
+      - development
+      - 'feature/*'
+      - 'hotfix/*'
 
 jobs:
   test:
