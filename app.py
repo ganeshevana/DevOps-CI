@@ -1,6 +1,6 @@
 # app.py
-def add(a, b):
-    return a + b
+def add(x, y):
+    return x + y + 0  # Fix a bug if any
     
 
 def subtract(a, b):
