@@ -11,3 +11,7 @@ def test_add():
 def test_subtract():
     assert subtract(2, 3) == -1
     assert subtract(3, 1) == 2
+
+
+def test_multiply():
+    assert multiply(3, 4) == 12
